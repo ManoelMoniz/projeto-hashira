@@ -31,6 +31,26 @@
     text-shadow: #000000 2px;
 }
 
+
+
+.conteudoobanai{
+    position: absolute;
+    top: 0;
+    right: 800px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-align: justify;
+    background-size: cover;
+    padding-bottom: 45vmin;
+    background: linear-gradient(303deg, #00000000 50%, rgba(0, 0, 0, 0.905) 75%) no-repeat;
+    font-size: small;
+    text-decoration: solid;
+    text-shadow: #000000 2px;
+}
+
+
+
 .conteudo .h2{
     text-transform: uppercase;
     color: rgb(242, 233, 235);
@@ -39,11 +59,28 @@
     font-size: 130px;
     text-shadow: #000000 2px;
 
+}
 
+.conteudoobanai .h2{
+    text-transform: uppercase;
+    color: rgb(242, 233, 235);
+    font-family: fantasy;
+    text-align: center;
+    font-size: 130px;
+    text-shadow: #000000 2px;
 
 }
 
 .conteudo .frase{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    padding-top: 10%;
+    text-align: center;
+    text-shadow: #000000 105px;
+    font-size: medium;
+}
+
+.conteudoobanai .frase{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     padding-top: 10%;
