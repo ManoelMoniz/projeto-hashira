@@ -88,3 +88,11 @@
     text-shadow: #000000 105px;
     font-size: medium;
 }
+
+.logo{
+    top: 720px;
+    position: absolute;
+    max-width: 7vmax;
+    max-height: 7vmax;
+    
+}
