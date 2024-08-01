@@ -3,17 +3,21 @@
     background-color: #000000;
 }
 
-
-.hashiras .vid {
-    object-fit: fill;
-    max-height: 100vmax;
-    max-width: 100vmax;
-    display: flex;
-    background-color: #000000;
-    position: fixed;
+main .hashira{
+    display: none;
 }
 
+main .hashira.selecionado {
+    background-color: #000000;
+    display: block;
+    
+}
 
+.hashira .video {
+    width: 120vi;
+    object-fit: fill;    
+    
+}
 
 .conteudo{
     position: absolute;
@@ -25,12 +29,12 @@
     text-align: justify;
     background-size: cover;
     padding-bottom: 45vmin;
-    background: linear-gradient(-303deg, #00000000 50%, rgba(0, 0, 0, 0.905) 75%) no-repeat;
+    background: linear-gradient(-303deg, #00000000 35%, rgba(0, 0, 0, 0.905) 75%) no-repeat;
     font-size: small;
     text-decoration: solid;
     text-shadow: #000000 20px;
+    padding: 20px;
 }
-
 
 
 .conteudoobanai{
@@ -44,14 +48,13 @@
     text-align: justify;
     background-size: cover;
     padding-bottom: 45vmin;
-    background: linear-gradient(300deg, #00000000 25%, rgba(0, 0, 0, 0.719) 85%) no-repeat;
+    background: linear-gradient(300deg, #00000000 35%, rgba(0, 0, 0, 0.719) 75%) no-repeat;
     font-size: small;
     text-decoration: solid;
     text-shadow: #000000 2px;
     padding: 20px;
     
 }
-
 
 
 .conteudo .h2{
@@ -122,13 +125,13 @@
 
 }
 
-.botoes .botaoselecionado{
+.botoes .botao.selecionado{
     border: #00000000;
     background-color:#00000000;
 
 
 }
-.botoes .botaoselecionado img{
+.botoes .botao.selecionado img{
     max-width: 120px;
     max-height: 120px;
 
